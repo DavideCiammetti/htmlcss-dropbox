@@ -226,6 +226,51 @@ header{
         }
     /* FINE DELLE 3 COLONNE  */
 
+    /* sezione verticale sotto le 3 colonne */
+    .orizzonatal-section{
+        width: 1000px;
+        border: 1px solid var(--grey-border-p);
+        margin: 0 auto;
+        margin-top: 51px;
+    }
+
+    .team-box{
+        border-bottom: 2px solid var(--grey-border-p);
+    }
+    .team-box{
+        padding: 14px 0;
+        text-align: center;
+    }
+    .type i{
+        margin-right: 5px;
+    }
+    .skill-desc{
+        display: flex;
+    }
+    .team-desc-link{
+        font-size: 14px;
+    }
+    span .team-desc-link{
+        margin-bottom: 55px;
+    }
+    .contact-team, 
+    .team-list-specific-desc, 
+    .team-title, .p-team-desc
+    {
+        margin-left: 34px;
+    }
+    .team-title{
+        margin-right: 578px;
+        margin-bottom: 21px;
+    }
+    .contact-team{
+        margin-bottom: 55px;
+    }
+    .p-team-desc{
+        margin-bottom: 31px;
+    }
+    /* fine sezione verticale sotto le 3 colonne */
+
 /* FINE MAIN */
 
 /* FOOTER */
