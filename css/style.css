@@ -17,21 +17,27 @@ body{
 /* HEADER */
 header{
     background-color: var(--back-color-header);
+    /*overflow: auto; vedere dopo main-------*/
 }
     /* inizio navbar */
     .navbar{
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+    }
+    .nav-container{
         background-color: rgb(255, 255, 255);
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 80px;
     }
-
     .right-nav-box, .left-nav-box
     {
         display: flex;
     }
-    .logo-img{
+    a .logo-img{
         width: 127px;
     }
 
@@ -60,17 +66,51 @@ header{
     }
     /* fine navbar */
     /* SECTION DELL'HEADER */
+        /* section titolo */
     .header-section{
         display: flex;
         justify-content: center;    
     }
     .header-section-container{
-        max-width: 1180px;
-        border: 1px solid black;   /*bordo da togliere*/
+        width: 1180px;
+    }
+    .header-title{
+        padding-top: 98px;
     }
     .title{
         font-size: 59px;
     }
+        /* fine section titolo */
+    .section-description{
+        display: flex;
+    }
+
+    .p-description{
+        margin-top: 62px;
+        margin-bottom: 36px;
+    }
+    .p-annulla-section{
+        margin-top: 35px;
+        margin-bottom: 76px;
+    }
+    span .fa-solid{
+        font-size: 42px;
+        margin-bottom: 24px;
+    }
+    /* immagine destra header */
+    .img-description{
+        margin-left: 15px;
+        margin-top: 56px;
+    }
+    .img-sec-right {
+        width: 820px;
+        position: relative;
+    }
+    .img-sec-right img{
+        width: 100%;
+        position: absolute;
+    }
+    /* immagine destra header */
     /* SECTION DELL'HEADER */
 
 /* FINE HEADER */
