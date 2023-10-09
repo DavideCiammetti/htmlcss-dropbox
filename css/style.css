@@ -93,13 +93,12 @@ header{
         margin-top: 35px;
         margin-bottom: 76px;
     }
-    span .fa-solid{
+    span .fa-arrow-down{
         font-size: 42px;
         margin-bottom: 24px;
     }
     /* immagine destra header */
     .img-description{
-        margin-left: 15px;
         margin-top: 56px;
     }
     .img-sec-right {
@@ -116,6 +115,28 @@ header{
 /* FINE HEADER */
 
 /* MAIN */
+.main-section{
+    width: 1000px;
+    margin: auto;
+    padding-top: 160px;
+}
+.main-title{
+    font-size: 35px;
+    margin-bottom: 63px;
+}
+.fa-circle-dot, .fa-circle{      /*gestione radio bottom*/
+    margin-right: 7px;
+}
+.ico-button-radio-click{          /*gestione radio bottom*/
+    margin-right: 50px;
+}
+.ico-button-radio-click .fa-circle-dot {          /*gestione radio bottom*/
+    color: blue;
+}
+.ico-button-radio .fa-circle {          /*gestione radio bottom*/
+    color: rgb(177, 177, 177,0.8);
+}
+
 
 /* FINE MAIN */
 
