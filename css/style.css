@@ -8,18 +8,27 @@ body{
     font-size: 13px;
 }
 /* GLOBAL  */
-:root{
-    --color-words: black;
-    --back-color-header: rgb(180, 208, 231);
-    --link-radio-color:  rgb(0, 98, 255);
-    --grey-border-p: rgb(208, 208, 211,0.6);
-}
+    :root{
+        --color-words: black;
+        --back-color-header: rgb(180, 208, 231);
+        --link-radio-color:  rgb(0, 98, 255);
+        --grey-border-p: rgb(208, 208, 211,0.6);
+    }
+    .extreme-right-link{      /*si riferisce a tutti i "pulsanti" o link*/
+        padding-right: 20px;
+    }
+    ul{
+        margin-left: 32px;
+    }
+    .check i{
+        color: var(--link-radio-color);  /* BACK-COLOR DELLE "V" CHECK */
+    }
+
 /* FINE GLOBAL */
 
 /* HEADER */
 header{
     background-color: var(--back-color-header);
-    /*overflow: auto; vedere dopo main-------*/
 }
     /* inizio navbar */
     .navbar{
@@ -35,7 +44,8 @@ header{
         align-items: center;
         height: 80px;
     }
-    .right-nav-box, .left-nav-box
+    .right-nav-box,
+    .left-nav-box
     {
         display: flex;
     }
@@ -51,12 +61,8 @@ header{
     .link-space{
         margin-right: 43px;
     }
-
     .extreme-left-img{
         padding-left: 20px;
-    }
-    .extreme-right-link{
-        padding-right: 20px;
     }
     .extreme-right-link a{  /*ultimo link a destra della nav*/
         color: white;
@@ -67,6 +73,7 @@ header{
         padding-right: 21px;
     }
     /* fine navbar */
+
     /* SECTION DELL'HEADER */
         /* section titolo */
     .header-section{
@@ -77,13 +84,14 @@ header{
         width: 1180px;
     }
     .header-title{
-        padding-top: 98px;
+        padding-top: 110px;
     }
     .title{
         font-size: 59px;
         font-weight: 700px;
     }
         /* fine section titolo */
+        /* inizio parte con paragrafo sotto titolo */
     .section-description{
         display: flex;
     }
@@ -92,11 +100,11 @@ header{
         margin-top: 62px;
         margin-bottom: 36px;
     }
-    .p-annulla-section{
+    .p-section-disabonati{
         margin-top: 35px;
         margin-bottom: 76px;
     }
-    span .fa-arrow-down{
+    span .fa-arrow-down{    /* freccia nell'header*/
         font-size: 42px;
         margin-bottom: 24px;
     }
@@ -140,6 +148,7 @@ header{
     .ico-button-radio .fa-circle {          /*gestione radio bottom*/
         color: rgb(177, 177, 177,0.8);
     }
+
     /* INIZIO DELLE 3 COLONNE  */
     .column-container{
         display: flex;
@@ -150,19 +159,16 @@ header{
         width: 300px;
         border: 2px solid var(--grey-border-p);
     }
-    
     .c-box{
         margin-right: 50px;
     }
-    .type-of-comunity{
+    .type-of-comunity{      /*indica i 3 rettangoli all'apice delle colonne*/
         text-align: center;
         border-bottom: 2px solid rgb(208, 208, 211,0.6);
         padding: 14px 0;
     }
-    ul{
-        margin-left: 32px;
-    }
-        /* GESTIONE MARGINI TRA DESCRIZIONE DELLE COLONNE  */
+    /* PER GLI "UL" è generico in globale sotto body */
+    /* GESTIONE MARGINI TRA DESCRIZIONE DELLE COLONNE  */
         .skill-desc{
             margin-top: 39px;
             font-size: 22px;
@@ -176,45 +182,45 @@ header{
             color: rgb(172, 172, 172);
         }
         .memory{
-            margin-bottom: 27px;
+            margin-bottom: 27px;        /*icona della memoria*/
         }
         .share{
-            margin-bottom: 54px;
+            margin-bottom: 54px;        /*icona del condividi*/
         }
         .button-desc{
             margin-bottom: 37px;
         }
         .buy-now{
-            margin-bottom: 42px;
+            margin-bottom: 42px;     
         }
         .highlights-plan{
             margin-bottom: 38px;
         }
         .check{
-            margin-bottom: 25px;
-        }
-        .check, .share, .memory{
-            display: flex;
-        }
-
-        .check i{
-            color: var(--link-radio-color);
+            margin-bottom: 25px;    /*sono le "v" check sotto le colonne*/
         }
 
         .check i,
         .share i,
-        .memory i{
+        .memory i,
+        .type i{            /*questo "type i" fa parte della sezione orizzontale sotto*/
             margin-right: 6px;
         } 
-         /* GESTIONE MARGINI TRA DESCRIZIONE DELLE COLONNE  */
+    /* FINE GESTIONE MARGINI TRA DESCRIZIONE DELLE COLONNE  */
+         .check, 
+         .share, 
+         .memory{
+            display: flex;
+        }
         .underline{
             text-decoration: underline;
             color: blue;
         }
+            /* IL BACK-COLOR DELLE "V" CHECK è IN GLOBALE */
         .button-desc a{
             padding: 16px 41px;
         }
-        .line{
+        .line{          /*linea orizzontale grigia sulle 3 colonne*/
             width: 48px;
             height: 2px;
             margin-left: 30px;
@@ -229,20 +235,14 @@ header{
     /* sezione verticale sotto le 3 colonne */
     .orizzonatal-section{
         width: 1000px;
-        border: 1px solid var(--grey-border-p);
+        border: 2px solid var(--grey-border-p);
         margin: 0 auto;
         margin-top: 51px;
-    }
-
-    .team-box{
-        border-bottom: 2px solid var(--grey-border-p);
     }
     .team-box{
         padding: 14px 0;
         text-align: center;
-    }
-    .type i{
-        margin-right: 5px;
+        border-bottom: 2px solid var(--grey-border-p);
     }
     .skill-desc{
         display: flex;
