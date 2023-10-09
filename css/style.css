@@ -143,16 +143,81 @@ header{
     .column-container{
         display: flex;
         margin: auto;
-        border: 1px solid black;
         margin-top: 53px;
     }
     .column{
         width: 300px;
-        background-color: blueviolet;
+        border: 2px solid rgb(208, 208, 211,0.6);
     }
+    
     .c-box{
         margin-right: 50px;
     }
+    .type-of-comunity{
+        text-align: center;
+        border-bottom: 2px solid rgb(208, 208, 211,0.6);
+        padding: 14px 0;
+    }
+    ul{
+        margin-left: 26px;
+    }
+        /* GESTIONE MARGINI TRA DESCRIZIONE DELLE COLONNE  */
+        .skill-desc{
+            margin-top: 39px;
+        }
+        .money, .memory{
+            margin-top: 27px;
+            margin-bottom: 19px;
+        }
+        .time{
+            margin-bottom: 57px;
+        }
+        .memory{
+            margin-bottom: 27px;
+        }
+        .share{
+            margin-bottom: 54px;
+        }
+        .button-desc{
+            margin-bottom: 37px;
+        }
+        .buy-now{
+            margin-bottom: 42px;
+        }
+        .highlights-plan{
+            margin-bottom: 38px;
+        }
+        .check{
+            margin-bottom: 25px;
+        }
+        .check, .share, .memory{
+            display: flex;
+        }
+
+        .check i{
+            color: var(--link-radio-color);
+        }
+
+        .check i,
+        .share i,
+        .memory i{
+            margin-right: 6px;
+        } 
+         /* GESTIONE MARGINI TRA DESCRIZIONE DELLE COLONNE  */
+        .underline{
+            text-decoration: underline;
+            color: blue;
+        }
+        .button-desc a{
+            padding: 16px 41px;
+        }
+        .line{
+            width: 48px;
+            height: 2px;
+            margin-left: 30px;
+            margin-bottom: 55px;
+            background-color: rgb(208, 208, 211,0.6);
+        }
     /* FINE DELLE 3 COLONNE  */
 
 /* FINE MAIN */
