@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* GLOBAL  */
+
+/* FINE GLOBAL */
+
+/* HEADER */
+.navbar{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-nav-box, .left-nav-box
+{
+    display: flex;
+}
+
+/* FINE HEADER */
+
+/* MAIN */
+
+/* FINE MAIN */
+
+/* FOOTER */
+
+/* FINE FOOTER */
