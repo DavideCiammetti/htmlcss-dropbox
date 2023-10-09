@@ -11,6 +11,7 @@ body{
 :root{
     --color-words: black;
     --back-color-header: rgb(180, 208, 231);
+    --link-radio-color:  rgb(0, 98, 255);
 }
 /* FINE GLOBAL */
 
@@ -58,7 +59,7 @@ header{
     }
     .extreme-right-link a{  /*ultimo link a destra della nav*/
         color: white;
-        background-color: rgb(0, 98, 255);
+        background-color: var(--link-radio-color);
         padding: 11px 17px;
     }
     .link-accedi{
@@ -79,6 +80,7 @@ header{
     }
     .title{
         font-size: 59px;
+        font-weight: 700px;
     }
         /* fine section titolo */
     .section-description{
@@ -99,10 +101,11 @@ header{
     }
     /* immagine destra header */
     .img-description{
-        margin-top: 56px;
+        margin-top: 57px;
+        margin-left: 39px;
     }
     .img-sec-right {
-        width: 820px;
+        width: 783px;
         position: relative;
     }
     .img-sec-right img{
@@ -115,28 +118,42 @@ header{
 /* FINE HEADER */
 
 /* MAIN */
-.main-section{
-    width: 1000px;
-    margin: auto;
-    padding-top: 160px;
-}
-.main-title{
-    font-size: 35px;
-    margin-bottom: 63px;
-}
-.fa-circle-dot, .fa-circle{      /*gestione radio bottom*/
-    margin-right: 7px;
-}
-.ico-button-radio-click{          /*gestione radio bottom*/
-    margin-right: 50px;
-}
-.ico-button-radio-click .fa-circle-dot {          /*gestione radio bottom*/
-    color: blue;
-}
-.ico-button-radio .fa-circle {          /*gestione radio bottom*/
-    color: rgb(177, 177, 177,0.8);
-}
-
+    .main-section{
+        width: 1000px;
+        margin: auto;
+        padding-top: 160px;
+    }
+    .main-title{
+        font-size: 35px;
+        margin-bottom: 63px;
+    }
+    .fa-circle-dot, .fa-circle{      /*gestione radio bottom*/
+        margin-right: 7px;
+    }
+    .ico-button-radio-click{          /*gestione radio bottom*/
+        margin-right: 50px;
+    }
+    .ico-button-radio-click .fa-circle-dot {          /*gestione radio bottom*/
+        color:var(--link-radio-color);
+    }
+    .ico-button-radio .fa-circle {          /*gestione radio bottom*/
+        color: rgb(177, 177, 177,0.8);
+    }
+    /* INIZIO DELLE 3 COLONNE  */
+    .column-container{
+        display: flex;
+        margin: auto;
+        border: 1px solid black;
+        margin-top: 53px;
+    }
+    .column{
+        width: 300px;
+        background-color: blueviolet;
+    }
+    .c-box{
+        margin-right: 50px;
+    }
+    /* FINE DELLE 3 COLONNE  */
 
 /* FINE MAIN */
 
