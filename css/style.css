@@ -62,14 +62,11 @@ header{
     /* SECTION DELL'HEADER */
     .header-section{
         display: flex;
-        justify-content: center;
-        background-color: black;
+        justify-content: center;    
     }
     .header-section-container{
-        width: 1180px;
-        border: 1px solid black;
-        text-align: center;
-        background-color: blue;
+        max-width: 1180px;
+        border: 1px solid black;   /*bordo da togliere*/
     }
     .title{
         font-size: 59px;
