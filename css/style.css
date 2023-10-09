@@ -13,13 +13,32 @@
     background-color: blueviolet;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 80px;
 }
 
 .right-nav-box, .left-nav-box
 {
     display: flex;
 }
+.logo-img{
+    width: 127px;
+}
 
+a, li{
+    text-decoration: none;
+    list-style: none;
+}
+.link-space{
+    margin-right: 43px;
+}
+
+.extreme-left-img{
+    padding-left: 20px;
+}
+.extreme-right-link{
+    padding-right: 20px;
+}
 /* FINE HEADER */
 
 /* MAIN */
