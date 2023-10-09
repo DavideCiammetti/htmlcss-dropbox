@@ -9,10 +9,10 @@ body{
 }
 /* GLOBAL  */
     :root{
-        --color-words: black;
-        --back-color-header: rgb(180, 208, 231);
-        --link-radio-color:  rgb(0, 98, 255);
-        --grey-border-p: rgb(208, 208, 211,0.6);
+        --color-words: black;                           /*colore generico*/
+        --back-color-header: rgb(180, 208, 231);        /*back-color header*/
+        --link-radio-color:  rgb(0, 98, 255);           /*back-color bottoni*/
+        --grey-border-p: rgb(208, 208, 211,0.6);        /*colore bordi 3 colonne e sezione sotto*/
     }
     .extreme-right-link{      /*si riferisce a tutti i "pulsanti" o link*/
         padding-right: 20px;
@@ -23,7 +23,9 @@ body{
     .check i{
         color: var(--link-radio-color);  /* BACK-COLOR DELLE "V" CHECK */
     }
-
+    img{
+        display: block;
+    }
 /* FINE GLOBAL */
 
 /* HEADER */
@@ -270,6 +272,39 @@ header{
         margin-bottom: 31px;
     }
     /* fine sezione verticale sotto le 3 colonne */
+
+    /* INIZIO SECTIO 3 */
+    .section-three{
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+    }
+    .sec-3-container{
+        display: flex;
+        width: 1000px;
+    }
+    .img-section-container{
+        width: 600px;
+        margin-right: 51px;
+    }
+    .img-section-container img{
+        width: 100%;
+    }
+    .central-section-p{
+        margin-top: 59px;
+    }
+    .sec-3-title{                   /*titolo sezione*/
+        font-size: 20px;
+        margin-bottom: 21px;
+    }
+    .right-img-p-3{                 /*paragrafo sopra bottone al centro accanto alla foto*/
+        margin-bottom: 35px;
+    }
+    .bottom-special-3-sec{          /*bottone accanto alla foto al centro*/
+        padding: 15px;
+        border: 1px solid black;
+    }
+    /* FINE SECTION 3 */
 
 /* FINE MAIN */
 
