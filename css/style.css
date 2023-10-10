@@ -352,6 +352,80 @@ header{
         margin-top: 215px;
     }
     /* FINE SECTION 4 */
+    /* INIZIO SEZIONE 5 */
+        /* gestione delle 2 griglie di quadrati */
+        .five-sec-container{
+            display: flex;
+            margin-top: 152px;
+        }
+        .five-sec-content{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .central-five-sec-content img{
+            display: block;
+            width: 100%;
+        }
+        .central-five-sec-content{
+            width: 150%;
+        }
+        .cit{
+            margin-bottom: 55px;
+        }
+        .five-sec-content img{
+            width: 100%;
+            display: block;
+            padding: 25%;
+        }
+        .box-four-img{
+            width: 50%;
+        }
+        .box-img-central img{
+            padding-top: 50px;
+            padding-right: 320px;
+            padding-bottom: 49px;
+        } 
+        .box-img-central{
+            padding-left: 50px;
+        }
+        .space-top-img img{
+            padding-top: 35%;
+        }
+        .under-line-img-center{
+            width: 150px;
+            height: 2px;
+            margin-bottom: 43px;
+            background-color: rgb(208, 208, 211,0.6);
+        }
+            /* parte dedicata al backgrownd color delle immagini */
+            .color-design-img{
+                background-color: #a2d39b;
+                border: 10px solid #d1e9cd;
+            }
+            .asu-img-colo{
+                background-color: #61082b;
+            }
+            .florida-img-color{
+                background-color: #0093ce;
+            }
+            .topps-img-color{
+                background-color: #ff1c1c;
+            }
+            .bicycle-img-color{
+                background-color: #d5001f;
+            }
+            .hearts-img-color{
+                background-color: #b4d0e7;
+            }
+            .lonely-img-color{
+                background-color: #0d2481;
+            }
+            .clear-img-color{
+                background-color: #ffd830;
+            }
+            /* fine parte dedicata al backgrownd color delle immagini */
+        /* fine gestione griglie dei 2 quadrati */
+    /* FINE SEZIONE 5 */
 
 /* FINE MAIN */
 
