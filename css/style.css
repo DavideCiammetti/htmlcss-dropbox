@@ -344,9 +344,13 @@ header{
     .img-subtitle h4{
         font-size: 22px;
     }
-    /* .space-grid{
-        margin:0 50px ;
-    } */
+    .subtitle-grid-sec-4 h3{
+        font-size: 37px;
+        margin-bottom: 66px;
+    }
+    .subtitle-grid-sec-4{
+        margin-top: 215px;
+    }
     /* FINE SECTION 4 */
 
 /* FINE MAIN */
