@@ -11,6 +11,10 @@ body{
     .hover-start-link:hover{
         opacity: 0.6;
     }
+    .circle-hover:active{
+        background-color: rgb(48, 48, 230);
+        border-radius: 100%;
+    }
 /* HOVER */
 /* GLOBAL  */
     :root{
