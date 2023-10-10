@@ -396,6 +396,7 @@ header{
      .box img{
         width: 100%;
         padding: 40px;
+        filter: brightness(0) invert(1);
      }
      .under-line-img-center{     /*linea sotto foto*/
         width: 90px;
@@ -431,6 +432,23 @@ header{
         background-color: #ffd830;
     }
     /* fine parte dedicata al backgrownd color delle immagini */
+         /* FINE SEZIONE 5 */
+       /* INIZIO SEZIONE 6 */
+       .six-sec-content{
+        display: flex;
+        justify-content: space-around;
+        background-color: #b4d0e7;
+        padding: 100px 0;
+    }
+    .six-sec-content h3{
+        color: #61082b;
+        font-size: 35px;
+    }
+    .button-six-sec{
+        background-color: white;
+        padding: 15px 52px;
+    }
+    /* FINE SEZIONE 6 */
 
 /* FINE MAIN */
 
