@@ -15,6 +15,20 @@ body{
         background-color: rgb(48, 48, 230);
         border-radius: 100%;
     }
+        /* hover del chevron nella lista a "v" */
+                                
+        .section-quiz .chevron-hover{
+            display: none;                  
+        }
+        
+        .section-quiz:hover .chevron-hover{
+            display: flex;
+            justify-content: space-between;
+        }
+        .section-quiz:hover .hover-chev{
+            display: none;
+        } 
+        /* fine hover chevron */
 /* HOVER */
 /* GLOBAL  */
     :root{
@@ -463,45 +477,33 @@ header{
     }
     /* FINE SEZIONE 6 */
     /* INIZIO SEZIONE 7 */
-    .seven-sec-container{
-        display: flex;
-        justify-content: center;
+    .content-seven-sec{
+        width: 1000px;
+        margin: 0 auto;
     }
     .frequently-sec{
         margin-top: 160px;
         margin-bottom: 41px;
         font-size: 32px;
     }
-    .content-seven-sec{
-        width: 1000px;
-    }
     .section-quiz{
         padding: 41px 0;
         font-size: 16px;
     }
-    .section-quiz{
-        display: flex;
-    }
-    .section-quiz h5{
-        margin-right: 40%;
+    .fa-chevron-up,
+    .fa-chevron-down
+    {
+        margin-right: 50px;
     }
     .quiz-border-color{
         border-bottom:2px solid var(--grey-border-p) ;
         border-top:2px solid var(--grey-border-p) ;
     }
-        /* hover del chevron */
-                                /* questa parte è da vedere dopo */
-          /* .section-quiz .chevron-hover{
-                display: none;                  
-            }
-            
-            .section-quiz:hover .chevron-hover{
-                display: block;
-            }
-            .section-quiz  .hover-chev:hover{
-                display: none;
-            } */
-        /* fine hover chevron */
+   .list-chev-align{
+        display: flex;
+        justify-content: space-between;
+    }
+ 
     /* FINE SEZIONE 7 */
 
 /* FINE MAIN */
