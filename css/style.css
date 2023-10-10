@@ -31,21 +31,21 @@ body{
 /* HEADER */
 header{
     background-color: var(--back-color-header);
+    z-index: 1;
 }
     /* inizio navbar */
     .navbar{
         position: fixed;
         top: 0;
-        z-index: 999;
+        z-index: 2;
         width: 100%;
-        line-height: normal;
+        line-height: 80px;
     }
     .nav-container{
         background-color: rgb(255, 255, 255);
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 80px;
     }
     .right-nav-box,
     .left-nav-box
@@ -63,9 +63,11 @@ header{
     }
     .link-space{
         margin-right: 43px;
-    }
+        display: flex;
+        align-items: center;
+    } 
     .extreme-left-img{
-        padding-left: 20px;
+        padding-left: 15px;
     }
     .extreme-right-link a{  /*ultimo link a destra della nav*/
         color: white;
@@ -81,7 +83,7 @@ header{
         /* section titolo */
     .header-section{
         display: flex;
-        justify-content: center;    
+        justify-content: center;  
     }
     .header-section-container{
         width: 1180px;
@@ -449,6 +451,47 @@ header{
         padding: 15px 52px;
     }
     /* FINE SEZIONE 6 */
+    /* INIZIO SEZIONE 7 */
+    .seven-sec-container{
+        display: flex;
+        justify-content: center;
+    }
+    .frequently-sec{
+        margin-top: 160px;
+        margin-bottom: 41px;
+        font-size: 32px;
+    }
+    .content-seven-sec{
+        width: 1000px;
+    }
+    .section-quiz{
+        padding: 41px 0;
+        font-size: 16px;
+    }
+    .section-quiz{
+        display: flex;
+    }
+    .section-quiz h5{
+        margin-right: 40%;
+    }
+    .quiz-border-color{
+        border-bottom:2px solid var(--grey-border-p) ;
+        border-top:2px solid var(--grey-border-p) ;
+    }
+        /* hover del chevron */
+                                /* questa parte è da vedere dopo */
+          /* .section-quiz .chevron-hover{
+                display: none;                  
+            }
+            
+            .section-quiz:hover .chevron-hover{
+                display: block;
+            }
+            .section-quiz  .hover-chev:hover{
+                display: none;
+            } */
+        /* fine hover chevron */
+    /* FINE SEZIONE 7 */
 
 /* FINE MAIN */
 
