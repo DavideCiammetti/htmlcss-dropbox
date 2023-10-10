@@ -357,10 +357,12 @@ header{
     /* INIZIO SEZIONE 5 */
     .five-sec-container{
         margin-top: 150px;
+        display: flex;
+        justify-content: center;
     }
      .box-container{
         display: flex;
-        
+        justify-content: center;
      }
      .box-content-six-sec{
         display: flex;
@@ -407,8 +409,8 @@ header{
         background-color: rgb(208, 208, 211,0.6);
     }
 
-      /* parte dedicata al backgrownd color delle immagini */
-      .color-design-img{
+    /* parte dedicata al backgrownd color delle immagini */
+    .color-design-img{
         background-color: #a2d39b;
         border: 10px solid #d1e9cd;
     }
@@ -436,7 +438,7 @@ header{
     /* fine parte dedicata al backgrownd color delle immagini */
          /* FINE SEZIONE 5 */
        /* INIZIO SEZIONE 6 */
-       .six-sec-content{
+    .six-sec-content{
         display: flex;
         justify-content: space-around;
         background-color: #b4d0e7;
@@ -496,5 +498,43 @@ header{
 /* FINE MAIN */
 
 /* FOOTER */
-
+.foot-container{
+    background-color: black;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.foot-content{
+    display: flex;
+}
+.box-list-foot{
+    margin-top: 107px;
+    padding-right: 53px;
+}
+.box-list-foot .list-foot{
+    color: white;
+    margin-bottom: 17px;
+}
+.box-list-foot :first-child{
+    font-size: 16px;
+    margin-bottom: 34px;
+}
+.foot-line{
+    color: rgb(128, 128, 128, 0.6);
+    padding-top: 120px;
+    margin-bottom: 51px;
+    width: 120px;
+    height: 5px;
+}
+.fa-earth-americas, /*settaggio margine delle icone*/
+.fa-sort-up{
+    margin-right: 6px;
+}
+.fa-sort-up{        /*icona freccia a sinistra accanto "italiano"*/
+    position: relative;
+    top: 5px;
+}
+.icon-foot-final span{  /*colore delle icone piu la parola "italiano"*/
+    color: rgb(255, 255, 255,0.6);
+}
 /* FINE FOOTER */
