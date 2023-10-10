@@ -312,6 +312,34 @@ header{
     }
     /* FINE SECTION 3 */
 
+    /* INIZIO SECTION 4 */
+    .grid-section-container{
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        width: 1000px;
+        margin-top: 160px;
+    }
+    .grid-title{
+        text-align: start;
+        font-size: 30px;
+    }
+    .grid-box{
+        width: 30%;
+        border: 1px solid black;
+    }
+    .space-grid-l-r{
+        margin: 0 50px;
+    }
+    .space-grid-b-t{
+        margin-bottom: 66px;
+        margin-top: 80px;
+    }
+    /* .space-grid{
+        margin:0 50px ;
+    } */
+    /* FINE SECTION 4 */
+
 /* FINE MAIN */
 
 /* FOOTER */
