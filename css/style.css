@@ -368,8 +368,9 @@ header{
         }
         .central-five-sec-content{
             width: 150%;
+            background-color: #f5f5f5;
         }
-        .cit{
+        .cit{       /*citazione sotto paragrafo*/
             margin-bottom: 55px;
         }
         .five-sec-content img{
@@ -379,9 +380,10 @@ header{
         }
         .box-four-img{
             width: 50%;
+            fill: white;
         }
         .box-img-central img{
-            padding-top: 50px;
+            padding-top: 25px;
             padding-right: 320px;
             padding-bottom: 49px;
         } 
@@ -391,7 +393,7 @@ header{
         .space-top-img img{
             padding-top: 35%;
         }
-        .under-line-img-center{
+        .under-line-img-center{     /*linea sotto foto*/
             width: 150px;
             height: 2px;
             margin-bottom: 43px;
