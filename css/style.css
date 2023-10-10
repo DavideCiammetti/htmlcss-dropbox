@@ -164,7 +164,7 @@ header{
         margin-left: 32px;
     }
     .column{
-        width: 300px;
+        width: 30%;
         border: 2px solid var(--grey-border-p);
     }
     .c-box{
@@ -290,7 +290,7 @@ header{
         width: 1000px;
     }
     .img-section-container{
-        width: 600px;
+        width: 60%;
         margin-right: 51px;
     }
     .img-section-container img{
