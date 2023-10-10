@@ -7,6 +7,11 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
 }
+/* HOVER */
+    .hover-start-link:hover{
+        opacity: 0.6;
+    }
+/* HOVER */
 /* GLOBAL  */
     :root{
         --color-words: black;                           /*colore generico*/
