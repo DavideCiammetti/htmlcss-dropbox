@@ -38,6 +38,7 @@ header{
         top: 0;
         z-index: 999;
         width: 100%;
+        line-height: normal;
     }
     .nav-container{
         background-color: rgb(255, 255, 255);
@@ -86,11 +87,11 @@ header{
         width: 1180px;
     }
     .header-title{
-        padding-top: 110px;
+        padding-top:120PX;
     }
     .title{
-        font-size: 59px;
-        font-weight: 700px;
+        font-size: 74px;
+        font-weight: 800px;
     }
         /* fine section titolo */
         /* inizio parte con paragrafo sotto titolo */
@@ -121,7 +122,9 @@ header{
     }
     .img-sec-right img{
         width: 100%;
-        position: absolute;
+        position: relative;
+        position: absolute
+       
     }
     /* immagine destra header */
     /* SECTION DELL'HEADER */
@@ -156,6 +159,9 @@ header{
         display: flex;
         margin: auto;
         margin-top: 53px;
+    }
+    .column-content{
+        margin-left: 32px;
     }
     .column{
         width: 300px;
