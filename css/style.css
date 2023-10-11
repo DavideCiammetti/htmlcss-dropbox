@@ -8,6 +8,11 @@ body{
     font-size: 13px;
 }
 /* HOVER */
+    /* hover border-bottom navbar */
+    .b-bottom:hover{
+        border-bottom:2px solid black;
+    }
+     /*fine hover border-bottom navbar */
     .hover-start-link:hover{
         opacity: 0.6;
     }
@@ -25,10 +30,11 @@ body{
             display: flex;
             justify-content: space-between;
         }
-        .section-quiz:hover .hover-chev{
+        .section-quiz:hover .hover-chev-ico{
             display: none;
         } 
         /* fine hover chevron */
+
 /* HOVER */
 /* GLOBAL  */
     :root{
@@ -78,7 +84,9 @@ header{
     a .logo-img{
         width: 127px;
     }
-
+    .b-bottom{
+        border: 2px solid transparent;
+    }
     a, li{
         text-decoration: none;
         list-style: none;
@@ -88,9 +96,6 @@ header{
         margin-right: 43px;
         display: flex;
         align-items: center;
-    } 
-    .extreme-left-img{
-        padding-left: 15px;
     }
     .extreme-right-link a{  /*ultimo link a destra della nav*/
         color: white;
@@ -386,9 +391,12 @@ header{
      .box-container{
         display: flex;
         justify-content: center;
+        height: calc(100vw / 3);
      }
      .box-content-six-sec{
         display: flex;
+        overflow: hidden;
+        width: 40%;
      }
      .column-six-sec{
         flex-wrap: wrap;
@@ -418,6 +426,7 @@ header{
      }
      .box{
         width: calc(100% / 2);
+        height: calc(100% / 2);
         display: flex;
      }
      .box img{
@@ -503,7 +512,9 @@ header{
         display: flex;
         justify-content: space-between;
     }
- 
+    .chevron-hover{
+        padding-top: 16px;
+    }
     /* FINE SEZIONE 7 */
 
 /* FINE MAIN */
