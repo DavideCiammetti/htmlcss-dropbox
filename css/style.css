@@ -20,12 +20,11 @@ body{
         background-color: rgb(48, 48, 230);
         border-radius: 100%;
     }
-        /* hover del chevron nella lista a "v" */
+        /* hover del chevron nella lista a "v" in basso*/
                                 
         .section-quiz .chevron-hover{
             display: none;                  
         }
-        
         .section-quiz:hover .chevron-hover{
             display: flex;
             justify-content: space-between;
@@ -34,6 +33,14 @@ body{
             display: none;
         } 
         /* fine hover chevron */
+
+    .hover-bott-3:hover{        /*hover del button accanto alla foto centrale*/
+        background-color: #dbdbdba5;
+        border: 3px solid black;
+    }
+    .butt-six-hover:hover{          /*hover del bottom sotto le 8 immagini */
+        opacity: 0.7;
+    }
 
 /* HOVER */
 /* GLOBAL  */
@@ -49,6 +56,11 @@ body{
     ul{
         margin-left: 32px;
     }
+    a, li{
+        text-decoration: none;
+        list-style: none;
+        color: var(--color-words);
+    }
     .check i{
         color: var(--link-radio-color);  /* BACK-COLOR DELLE "V" CHECK */
     }
@@ -63,6 +75,7 @@ header{
     z-index: 1;
 }
     /* inizio navbar */
+        /* navbar e contenitore  */
     .navbar{
         position: fixed;
         top: 0;
@@ -76,8 +89,10 @@ header{
         justify-content: space-between;
         align-items: center;
     }
+        /* navbar e contenitore  */
     .right-nav-box,
-    .left-nav-box
+    .left-nav-box,
+    .link-space
     {
         display: flex;
     }
@@ -85,16 +100,10 @@ header{
         width: 127px;
     }
     .b-bottom{
-        border: 2px solid transparent;
+        border: 2px solid transparent;      /*per il border-bottom che all'hover diventa nero*/
     }
-    a, li{
-        text-decoration: none;
-        list-style: none;
-        color: var(--color-words);
-    }
-    .link-space{
+    .link-space{        /*riferito ai "li" tag della navbar*/
         margin-right: 43px;
-        display: flex;
         align-items: center;
     }
     .extreme-right-link a{  /*ultimo link a destra della nav*/
@@ -128,7 +137,6 @@ header{
     .section-description{
         display: flex;
     }
-
     .p-description{
         margin-top: 62px;
         margin-bottom: 36px;
@@ -152,9 +160,7 @@ header{
     }
     .img-sec-right img{
         width: 100%;
-        position: relative;
-        position: absolute
-       
+        position: absolute 
     }
     /* immagine destra header */
     /* SECTION DELL'HEADER */
@@ -357,7 +363,6 @@ header{
     }
     .grid-box{
         width: 30%;
-    
     }
     .space-grid-l-r{        /*margine dx e sx alle sezioni centrali 2-5*/
         margin: 0 50px;
@@ -422,7 +427,7 @@ header{
         padding-bottom: 70px;
      }
      .florida-box{
-        padding: 40px 0;
+        padding: 75px 0;
      }
      .box{
         width: calc(100% / 2);
@@ -500,7 +505,7 @@ header{
         font-size: 16px;
     }
     .fa-chevron-up,
-    .fa-chevron-down
+    .fa-chevron-down        /*margine nelle lista a 3 trabtesto e icona*/
     {
         margin-right: 50px;
     }
@@ -508,9 +513,9 @@ header{
         border-bottom:2px solid var(--grey-border-p) ;
         border-top:2px solid var(--grey-border-p) ;
     }
-   .list-chev-align{
+   .list-chev-align{        /*"li" tag della lista a 3*/
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
     }
     .chevron-hover{
         padding-top: 16px;
@@ -520,14 +525,15 @@ header{
 /* FINE MAIN */
 
 /* FOOTER */
+.foot-content,
+.foot-container{
+    display: flex;
+}
 .foot-container{
     background-color: black;
     margin-top: 150px;
     display: flex;
     justify-content: center;
-}
-.foot-content{
-    display: flex;
 }
 .box-list-foot{
     margin-top: 107px;
@@ -546,7 +552,6 @@ header{
     padding-top: 120px;
     margin-bottom: 51px;
     width: 120px;
-    height: 5px;
 }
 .fa-earth-americas, /*settaggio margine delle icone*/
 .fa-sort-up{
