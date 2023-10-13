@@ -14,4 +14,11 @@
         width: 60%;
         position: relative;
     }
+    .grid-section-container{
+        transition: 2s;
+        width: 60%;
+    }
+    .space-grid-l-r {
+        margin: 0 7px;
+    }
 }
