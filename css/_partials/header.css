@@ -1,0 +1,17 @@
+@media screen and (max-width: 1030px){
+    .navbar{
+        display: block;
+    }
+    .header-container{
+        width: 100vw;
+    }
+    .header-title h1{
+        transition: 3s;
+        font-size: 2rem;
+        margin-top: 60px;
+    }
+    .img-sec-right{
+        width: 60%;
+        position: relative;
+    }
+}

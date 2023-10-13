@@ -1,12 +1,22 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* ANGOLO MEDIA QUERY */
+/*******************************************************/
+    /* media querys header */
+    @import './_partials/header.css';
+    /* fine media querys header */
+    
+/*******************************************************/
+/* ANGOLO MEDIA QUERY */
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
 }
+
 /* HOVER */
     /* hover border-bottom navbar */
     .b-bottom:hover{
@@ -83,7 +93,7 @@ header{
         width: 100%;
         line-height: 80px;
     }
-    .nav-container{
+    .navbar{
         background-color: rgb(255, 255, 255);
         display: flex;
         justify-content: space-between;
@@ -115,15 +125,12 @@ header{
         padding-right: 21px;
     }
     /* fine navbar */
-
+    
     /* SECTION DELL'HEADER */
         /* section titolo */
     .header-section{
         display: flex;
         justify-content: center;  
-    }
-    .header-section-container{
-        width: 1180px;
     }
     .header-title{
         padding-top:120PX;
@@ -136,6 +143,10 @@ header{
         /* inizio parte con paragrafo sotto titolo */
     .section-description{
         display: flex;
+    }
+    .description{
+        position: relative;
+        bottom: -13px;
     }
     .p-description{
         margin-top: 62px;
@@ -150,23 +161,18 @@ header{
         margin-bottom: 24px;
     }
     /* immagine destra header */
-    .img-description{
-        margin-top: 57px;
-        margin-left: 39px;
-    }
     .img-sec-right {
         width: 783px;
+        bottom: -70px;
         position: relative;
     }
     .img-sec-right img{
         width: 100%;
-        position: absolute 
     }
     /* immagine destra header */
     /* SECTION DELL'HEADER */
 
 /* FINE HEADER */
-
 /* MAIN */
     .main-section{
         width: 1000px;
@@ -565,3 +571,4 @@ header{
     color: rgb(255, 255, 255,0.6);
 }
 /* FINE FOOTER */
+
